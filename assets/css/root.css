@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    list-style-type: none !important;
+    box-sizing: border-box !important;
+
+}
+
+.container_css {
+    max-width: 1140px;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+:root {
+    --fs-x: 14px;
+    --fs-sm: 16px;
+    --fs-xmd: 18px;
+    --fs-md: 20px;
+    --fs-xlg: 27px;
+    --fs-lg: 30px;
+    --fs-xl: 50px;
+    --fs-xxl: 65px;
+    --dark-grey: #4D4D4D;
+    --dark-orange-color: #E0480A;
+    --smooth-grey: #848680;
+    --black-gray: #32352C;
+    --black-color: #000000;
+    --white-color: #FFFFFF;
+    --orange-color: #FFB13B;
+    --light-blue-color: #4D86DC;
+    --dark-blue-color: #364EC6;
+    --voilet-color: #6A3DAD;
+    --yellow-color: #EFB93B;
+    --light-grey-color: #5B5D56;
+    --grey-color: #E2E2E2;
+    --grey-full: #70726B;
+    --pink-color: #EF647C;
+}
+
+.fs-x {
+    font-size: var(--fs-x);
+}
+
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-xmd {
+    font-size: var(--fs-xmd);
+}
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+.fs-xlg {
+    font-size: var(--fs-xlg);
+}
+
+.fs-lg {
+    font-size: var(--fs-lg);
+}
+
+.fs-xl {
+    font-size: var(--fs-xl);
+}
+
+.fs-xxl {
+    font-size: var(--fs-xxl);
+}
+
+.white-color {
+    color: var(--white-color);
+}
+
+.black-color {
+    color: var(--black-color);
+}
+
+.black-gray {
+    color: var(--black-gray);
+}
+
+.orange-color {
+    color: var(--orange-color);
+}
+
+.dark-grey {
+    color: var(--dark-grey);
+}
+
+.yellow-color {
+    color: var(--yellow-color);
+}
+
+.dark-orange-color {
+    color: var(--dark-orange-color);
+}
+
+.light-blue-color {
+    color: var(--light-blue-color);
+}
+
+.dark-blue-color {
+    color: var(--dark-blue-color);
+}
+
+.voilet-color {
+    color: var(--voilet-color);
+}
+
+.light-grey-color {
+    color: var(--light-grey-color);
+}
+
+.pink-color {
+    color: var(--pink-color);
+}
+
+.grey-color {
+    color: var(--grey-color);
+}
+
+.smooth-grey {
+    color: var(--smooth-grey);
+}
+
+.grey-full {
+    color: var(--grey-full);
+}
+
+.ff-Montserrat {
+    font-family: Montserrat;
+}
+
+.boxBorder {
+    border: 1px solid white;
+    padding: 4px 8px 4px 5px;
+    border-radius: 50px;
+    background: var(--04, linear-gradient(180deg, #FFBA3B 0%, #FFA53B 53.15%, #FF983B 100%));
+}
+
+.fw-900 {
+    font-weight: 900;
+}
