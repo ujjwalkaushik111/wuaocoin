@@ -208,7 +208,7 @@
     border: 1px solid #ffffff !important;
     border-radius: 40px;
     padding: 11px 21px;
-    color: #FFA53B !important ;
+    color: #FFA53B !important;
     background: var(--bhjb, #FFF);
 }
 
@@ -217,9 +217,10 @@
     border-radius: 40px;
     padding: 11px 21px;
     color: #FFF !important;
-    background: var(--bhjb,#FFA53B);
+    background: var(--bhjb, #FFA53B);
 }
-.w-252{
+
+.w-252 {
     max-width: 252px;
 }
 
@@ -254,8 +255,9 @@
     bottom: 2%;
     left: 33%;
 }
-.opacity{
-    opacity:40% ;
+
+.opacity {
+    opacity: 40%;
 }
 
 .pos-absolute-arrow-map {
@@ -269,8 +271,9 @@
     top: 1%;
     left: 0%;
 }
-.cursor{
-cursor: pointer;
+
+.cursor {
+    cursor: pointer;
 }
 
 .pos-absolute-dr {
@@ -302,15 +305,17 @@ cursor: pointer;
     bottom: -16%;
     left: 26%;
 }
+
 .pos-absolute-uf {
     position: absolute;
     top: -62%;
     left: 0%;
 }
+
 .pos-absolute-bf {
     position: absolute;
     bottom: -14%;
-    right : 0%;
+    right: 0%;
 }
 
 .cricle {
@@ -320,25 +325,27 @@ cursor: pointer;
     border-radius: 29.862px;
     background: var(--04, linear-gradient(180deg, #FFBA3B 0%, #FFA53B 53.15%, #FF983B 100%));
 }
-@media( max-width:1200px) {
+
+@media(max-width:1200px) {
     .pos-absolute-team {
         position: static;
     }
-    
+
     .pos-absolute-5 {
-        position:static; 
+        position: static;
     }
-    
+
     .pos-absolute-community {
         position: static;
     }
-    
+
     .pos-absolute-worker {
-        position:static; 
+        position: static;
     }
-    
+
 }
-@media (max-width:992px){
+
+@media (max-width:992px) {
     :root {
         --fs-x: 14px;
         --fs-sm: 16px;
@@ -348,9 +355,10 @@ cursor: pointer;
         --fs-lg: 28px;
         --fs-xxl: 40px;
         --fs-xl: 50px;
+    }
 }
-}
-@media (max-width:768px){
+
+@media (max-width:768px) {
     :root {
         --fs-x: 14px;
         --fs-sm: 16px;
@@ -360,6 +368,13 @@ cursor: pointer;
         --fs-lg: 28px;
         --fs-xxl: 30px;
         --fs-xl: 45px;
-}
-}
+    }
 
+    .timer-box {
+        padding: 0px 0px;
+        border-radius: 10px;
+        border: 1px solid var(--bhjb, #FFF);
+        line-height: 174%;
+    }
+
+}
